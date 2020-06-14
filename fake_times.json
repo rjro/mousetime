@@ -5,17 +5,17 @@
         "Space Mountain":2
     },
     "15": {
-        "Indiana Jones":15,
-        "Star Tours":10,
+        "Indiana Jones":30,
+        "Star Tours":11,
         "Space Mountain":2
     },
     "30": {
-        "Indiana Jones":15,
-        "Star Tours":10,
+        "Indiana Jones":12,
+        "Star Tours":8,
         "Space Moutnain":2
     },
     "45": {
-        "Indiana Jones":15,
+        "Indiana Jones":5,
         "Star Tours":10,
         "Space Moutnain":8
     }
