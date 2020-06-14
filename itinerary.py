@@ -1,9 +1,7 @@
 from copy import copy
 from enum import Enum
 import json
-import gc
-
-gc.disable()
+import random
 
 def shift(seq, n):
     return seq[n:]+seq[:n]
@@ -12,7 +10,7 @@ data = json.load(open("times.json"))
 ride_names = sorted(data[str(495)].keys())
 n = len(ride_names)
 
-ride_names = shift(ride_names, 3)
+#ride_names = shift(ride_names, 3)
 
 def getVisitedArray():
     return [False for _ in range(n)]
@@ -90,6 +88,8 @@ def rideRides(itinerary, visited, time, depth):
             print("\n\n\n---------")
         return
 
+    queue = []
+
     for i in range(n):
         if visited[i] == False:
             nearest_15_min_interval = 15 * (time//15)
@@ -113,12 +113,26 @@ def rideRides(itinerary, visited, time, depth):
             c_visited = list(visited)
             c_visited[i] = True
 
+            queue.append(
+                (
+                    ride_node,
+                    c_visited,
+                    time + ride_duration,
+                    depth + 1
+                )
+            )
+
+            '''
             rideRides(
                ride_node,
                c_visited,
                time + ride_duration,
                depth + 1
-            )
+            )'''
+
+
+    #while queue: rideRides(*(queue.pop()))
+    while queue: rideRides(*(queue.pop(random.randrange(len(queue)))))
 
 
 
