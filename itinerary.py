@@ -5,9 +5,14 @@ import gc
 
 gc.disable()
 
+def shift(seq, n):
+    return seq[n:]+seq[:n]
+
 data = json.load(open("times.json"))
 ride_names = sorted(data[str(495)].keys())
 n = len(ride_names)
+
+ride_names = shift(ride_names, 3)
 
 def getVisitedArray():
     return [False for _ in range(n)]
@@ -27,7 +32,6 @@ class ItineraryNode:
         self.next = None
         self.prev = None
 
-        self.root = 55
         self.endTime = self.time + self.duration
 
     def __str__(self):
@@ -54,10 +58,17 @@ def printItinerary(itin):
 
 executions = 0
 
+#TODO: exploration needs to be more BFS
+#and figure out some way to prune!
 def rideRides(itinerary, visited, time, depth):
     global earliest_time, executions
 
-    if executions % (10**5) == 0: print ("Executions:", executions)
+    if executions % (10**6) == 0:
+        print ("Executions:", executions)
+        print("depth:", depth)
+        print("~~~~~~~~~~~")
+        printItinerary(itinerary)
+
     executions += 1
 
     '''
@@ -78,13 +89,6 @@ def rideRides(itinerary, visited, time, depth):
             print("NEW END TIME:", earliest_time)
             print("\n\n\n---------")
         return
-
-    '''
-    if all(visited):
-        printItinerary(itinerary)
-        print("\n\n\n---------")
-        return
-    '''
 
     for i in range(n):
         if visited[i] == False:
