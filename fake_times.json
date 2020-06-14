@@ -1,0 +1,22 @@
+{
+    "0": {
+        "Indiana Jones":15,
+        "Star Tours":2,
+        "Space Mountain":2
+    },
+    "15": {
+        "Indiana Jones":15,
+        "Star Tours":10,
+        "Space Mountain":2
+    },
+    "30": {
+        "Indiana Jones":15,
+        "Star Tours":10,
+        "Space Moutnain":2
+    },
+    "45": {
+        "Indiana Jones":15,
+        "Star Tours":10,
+        "Space Moutnain":8
+    }
+}
