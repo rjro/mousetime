@@ -47,4 +47,7 @@ for ride, coords in ride_locations.items():
             ride_distances[ride][oride] = calculateDistance(coords, ocoords)
             ride_distances[oride][ride] = calculateDistance(coords, ocoords)
 
-#print(ride_distances)
+print(ride_distances)
+
+
+json.dump(ride_distances, open("ride_distances.json", "w+"))
