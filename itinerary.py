@@ -5,8 +5,7 @@ from enum import Enum
 import json
 import random
 
-def shift(seq, n):
-    return seq[n:]+seq[:n]
+
 
 data = json.load(open("times.json"))
 
@@ -14,7 +13,6 @@ start_time = 615
 ride_names = sorted(data[str(start_time)].keys())
 n = len(ride_names)
 
-#ride_names = shift(ride_names, 3)
 
 def getVisitedArray():
     return [False for _ in range(n)]
@@ -45,7 +43,6 @@ class ItineraryNode:
 shortest_itinerary_seen = None
 earliest_time = float('inf')
 
-
 def printItinerary(itin):
 
     lagger = itin
@@ -68,43 +65,13 @@ executions = 0
 #ride signature so we can specify a max endtime
 #then we can make queries, e.g. 800 to 860 and provide a list of visited rides
 #this will let us optimize easily throughout the day :)
-def rideRides(itinerary, visited, time, depth):
+def rideRides(itinerary, visited, time, maxEndTime, depth):
     global earliest_time, executions
 
-    '''
-    if executions % (10**6) == 0:
-        print("~~~~~~~~~~~")
-        printItinerary(itinerary)
-        print ("Executions:", executions)
-        print("depth:", depth)
-        print("min time:", earliest_time)
-        print("~~~~~~~~~~~\n\n\n\n")
-
-    executions += 1
-    '''
-
-    '''
-    if depth == 5:
-        if itinerary.endTime < earliest_time:
-            earliest_time = itinerary.endTime
-            shortest_itinerary_seen = itinerary
-            printItinerary(itinerary)
-            print("NEW END TIME:", earliest_time)
-            print("\n\n\n---------")
-        return
-    '''
-
-    if depth == 4:
-        if itinerary.endTime < earliest_time:
-            earliest_time = itinerary.endTime
-            shortest_itinerary_seen = itinerary
-            printItinerary(itinerary)
-            print("NEW END TIME:", earliest_time)
-            print("\n\n\n---------")
+    if time >= maxEndTime:
         return
 
     queue = []
-
 
     for i in range(n):
         if visited[i] == False:
@@ -151,8 +118,4 @@ def rideRides(itinerary, visited, time, depth):
 
 
 
-rideRides(ItineraryNode(
-    0,
-    0,
-    Event.WAITING
-), visited=getVisitedArray(), time=630, depth=0)
+rideRides(ItineraryNode(0,0,Event.WAITING), visited=getVisitedArray(), time=900, depth=0)
