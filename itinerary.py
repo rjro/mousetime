@@ -23,7 +23,8 @@ class Event(Enum):
     WAITING = "WAITING"
 
 class ItineraryNode:
-    def __init__(self, time: int, duration: int, eventType: Event, rideId: int = None):
+    def __init__(self, time: int, duration: int, eventType: Event, rideId: int = None, pos=0):
+        self.pos = 1
         self.time = time
         self.duration = duration
         self.eventType = eventType
@@ -39,9 +40,19 @@ class ItineraryNode:
             return "%s -- %s -- %s -- %s -- %s" % (ride_names[self.rideId], self.eventType.value, self.time, self.duration, self.endTime)
         else:
             return "%s -- %s -- %s -- %s" % (self.eventType.value, self.time, self.duration, self.endTime)
+    
+    def print(self):
+        lagger = itin
+        while itin.prev is not None:
+            itin = itin.prev
+            itin.next = lagger
+            lagger = lagger.prev
 
-shortest_itinerary_seen = None
-earliest_time = float('inf')
+        while lagger is not None:
+            print(lagger)
+            lagger = lagger.next
+
+
 
 def printItinerary(itin):
 
@@ -55,22 +66,21 @@ def printItinerary(itin):
         print(lagger)
         lagger = lagger.next
 
+most_rides_ridden = 0
+best_itinerary = None
+best_visited = None
+xc = 0
 
-executions = 0
-
-#TODO: exploration needs to be more BFS
-#and figure out some way to prune!
-
-
-#ride signature so we can specify a max endtime
-#then we can make queries, e.g. 800 to 860 and provide a list of visited rides
-#this will let us optimize easily throughout the day :)
 def rideRides(itinerary, visited, time, maxEndTime, depth):
-    global earliest_time, executions
-
+    global best_itinerary, best_visited, xc
+    xc += 1
+    if xc % 10**3 == 0 : print(xc)
     if time >= maxEndTime:
         return
-
+    
+    if itinerary.pos > most_rides_ridden:
+        best_itinerary = itinerary
+        best_visited = visited
     queue = []
 
     for i in range(n):
@@ -90,6 +100,8 @@ def rideRides(itinerary, visited, time, maxEndTime, depth):
                 Event.ATTRACTION,
                 i
             )
+            ride_node.pos = itinerary.pos + 1
+
             ride_node.prev = copy(itinerary)
 
             c_visited = list(visited)
@@ -109,6 +121,7 @@ def rideRides(itinerary, visited, time, maxEndTime, depth):
                ride_node,
                c_visited,
                time + ride_duration,
+               maxEndTime,
                depth + 1
             )
 
@@ -118,4 +131,11 @@ def rideRides(itinerary, visited, time, maxEndTime, depth):
 
 
 
-rideRides(ItineraryNode(0,0,Event.WAITING), visited=getVisitedArray(), time=900, depth=0)
+base = 60
+rideRides(ItineraryNode(0,0,Event.WAITING), getVisitedArray(), time=900, maxEndTime=960, depth=0)
+for i in range(8):
+    print("Now starting iteratioin...", i)
+    rideRides(best_itinerary, best_visited, time=900+base, maxEndTime=900+base+60, depth=0)
+    base += 60
+
+printItinerary(best_itinerary)
