@@ -73,10 +73,10 @@ xc = 0
 
 def rideRides(itinerary, visited, time, maxEndTime, depth):
     global best_itinerary, best_visited, xc
-    xc += 1
+
+    xc +=1 
     if xc % 10**3 == 0 : print(xc)
-    if time >= maxEndTime:
-        return
+    if time >= maxEndTime: return
     
     if itinerary.pos > most_rides_ridden:
         best_itinerary = itinerary
