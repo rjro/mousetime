@@ -50,4 +50,4 @@ for ride, coords in ride_locations.items():
 print(ride_distances)
 
 
-json.dump(ride_distances, open("ride_distances.json", "w+"))
+json.dump(ride_distances, open("ride_distances.json", "w+"))    
