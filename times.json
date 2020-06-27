@@ -17,7 +17,7 @@
         "Splash Mountain": 5,
         "Star Tours – The Adventures Continue": 5,
         "Storybook Land Canal Boats": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 15,
         "Millennium Falcon: Smugglers Run": 20
     },
@@ -39,7 +39,7 @@
         "Splash Mountain": 5,
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 45,
         "Autopia": 5,
@@ -63,7 +63,7 @@
         "Splash Mountain": 5,
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 15,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 45,
         "Autopia": 5,
@@ -90,7 +90,7 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 45
     },
@@ -113,7 +113,7 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 45,
         "Roger Rabbit's Car Toon Spin": 5
@@ -138,7 +138,7 @@
         "Star Tours – The Adventures Continue": 15,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 40,
         "Roger Rabbit's Car Toon Spin": 5
@@ -163,7 +163,7 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 35,
         "Roger Rabbit's Car Toon Spin": 5,
@@ -190,7 +190,7 @@
         "Star Tours – The Adventures Continue": 25,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 35
     },
@@ -215,7 +215,7 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 35,
         "Indiana Jones™ Adventure": 25
@@ -240,7 +240,7 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 30,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 35,
         "Indiana Jones™ Adventure": 40
@@ -264,7 +264,7 @@
         "Splash Mountain": 5,
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 30,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 45,
         "Indiana Jones™ Adventure": 40
@@ -291,7 +291,7 @@
         "Star Tours – The Adventures Continue": 25,
         "Storybook Land Canal Boats": 30,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 45
     },
@@ -317,9 +317,9 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 15,
+        "it's a small world": 15,
         "Millennium Falcon: Smugglers Run": 40,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "690": {
         "Astro Orbitor": 15,
@@ -343,9 +343,9 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Millennium Falcon: Smugglers Run": 45,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "705": {
         "Astro Orbitor": 15,
@@ -368,10 +368,10 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 35,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "720": {
         "Astro Orbitor": 15,
@@ -394,10 +394,10 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 40,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "735": {
         "Astro Orbitor": 25,
@@ -420,10 +420,10 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 40,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "750": {
         "Astro Orbitor": 25,
@@ -446,10 +446,10 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 40,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15,
+        "Disney and Pixar's Onward Sneak Peek": 15,
         "Buzz Lightyear Astro Blasters": 15
     },
     "765": {
@@ -473,10 +473,10 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 40,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15,
+        "Disney and Pixar's Onward Sneak Peek": 15,
         "Buzz Lightyear Astro Blasters": 20,
         "Casey Jr. Circus Train": 5
     },
@@ -503,10 +503,10 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "795": {
         "Astro Orbitor": 15,
@@ -531,10 +531,10 @@
         "Star Tours – The Adventures Continue": 25,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 40,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "810": {
         "Astro Orbitor": 20,
@@ -559,10 +559,10 @@
         "Star Tours – The Adventures Continue": 25,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 20,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "825": {
         "Astro Orbitor": 20,
@@ -587,10 +587,10 @@
         "Star Tours – The Adventures Continue": 25,
         "Storybook Land Canal Boats": 30,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "840": {
         "Astro Orbitor": 20,
@@ -615,10 +615,10 @@
         "Star Tours – The Adventures Continue": 25,
         "Storybook Land Canal Boats": 30,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 25,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "855": {
         "Astro Orbitor": 20,
@@ -643,10 +643,10 @@
         "Star Tours – The Adventures Continue": 25,
         "Storybook Land Canal Boats": 30,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 35,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "870": {
         "Astro Orbitor": 20,
@@ -671,10 +671,10 @@
         "Star Tours – The Adventures Continue": 25,
         "Storybook Land Canal Boats": 30,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 35,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "885": {
         "Astro Orbitor": 20,
@@ -699,10 +699,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 30,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "900": {
         "Astro Orbitor": 20,
@@ -727,10 +727,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 30,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "915": {
         "Astro Orbitor": 15,
@@ -755,10 +755,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "930": {
         "Astro Orbitor": 15,
@@ -783,10 +783,10 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "945": {
         "Astro Orbitor": 15,
@@ -810,10 +810,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 10,
+        "it's a small world": 10,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "960": {
         "Astro Orbitor": 15,
@@ -837,10 +837,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 25,
         "The Many Adventures of Winnie the Pooh": 10,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 30,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "975": {
         "Astro Orbitor": 15,
@@ -863,10 +863,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 20,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 35,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15,
+        "Disney and Pixar's Onward Sneak Peek": 15,
         "Roger Rabbit's Car Toon Spin": 25
     },
     "990": {
@@ -891,10 +891,10 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 20,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 35,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15,
+        "Disney and Pixar's Onward Sneak Peek": 15,
         "Roger Rabbit's Car Toon Spin": 25
     },
     "1005": {
@@ -919,10 +919,10 @@
         "Star Tours – The Adventures Continue": 35,
         "Storybook Land Canal Boats": 20,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15,
+        "Disney and Pixar's Onward Sneak Peek": 15,
         "Roger Rabbit's Car Toon Spin": 25
     },
     "1020": {
@@ -948,10 +948,10 @@
         "Star Tours – The Adventures Continue": 45,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 25,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1035": {
         "Astro Orbitor": 10,
@@ -976,10 +976,10 @@
         "Star Tours – The Adventures Continue": 45,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 25,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1050": {
         "Astro Orbitor": 25,
@@ -1004,10 +1004,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1065": {
         "Astro Orbitor": 25,
@@ -1032,10 +1032,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1080": {
         "Astro Orbitor": 25,
@@ -1060,10 +1060,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1095": {
         "Astro Orbitor": 25,
@@ -1088,10 +1088,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1110": {
         "Astro Orbitor": 25,
@@ -1115,10 +1115,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1125": {
         "Astro Orbitor": 25,
@@ -1143,10 +1143,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1140": {
         "Astro Orbitor": 25,
@@ -1170,10 +1170,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 30,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1155": {
         "Astro Orbitor": 25,
@@ -1197,10 +1197,10 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 25,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1170": {
         "Astro Orbitor": 20,
@@ -1224,10 +1224,10 @@
         "Star Tours – The Adventures Continue": 30,
         "Storybook Land Canal Boats": 15,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 25,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1185": {
         "Astro Orbitor": 10,
@@ -1251,10 +1251,10 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 20,
         "Millennium Falcon: Smugglers Run": 25,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1200": {
         "Astro Orbitor": 10,
@@ -1278,10 +1278,10 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 15,
         "Millennium Falcon: Smugglers Run": 25,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1215": {
         "Astro Orbitor": 10,
@@ -1305,10 +1305,10 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 15,
         "Millennium Falcon: Smugglers Run": 15,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1230": {
         "Astro Orbitor": 10,
@@ -1332,10 +1332,10 @@
         "Star Tours – The Adventures Continue": 20,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 15,
         "Millennium Falcon: Smugglers Run": 15,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1245": {
         "Astro Orbitor": 10,
@@ -1357,10 +1357,10 @@
         "Star Tours – The Adventures Continue": 15,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 15,
         "Millennium Falcon: Smugglers Run": 15,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1260": {
         "Astro Orbitor": 15,
@@ -1382,10 +1382,10 @@
         "Star Tours – The Adventures Continue": 10,
         "Storybook Land Canal Boats": 10,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 15,
         "Millennium Falcon: Smugglers Run": 15,
-        "Disney and Pixar's \"Onward\" Sneak Peek": 15
+        "Disney and Pixar's Onward Sneak Peek": 15
     },
     "1275": {
         "Astro Orbitor": 10,
@@ -1407,7 +1407,7 @@
         "Star Tours – The Adventures Continue": 10,
         "Storybook Land Canal Boats": 5,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 15,
         "Millennium Falcon: Smugglers Run": 15,
         "Matterhorn Bobsleds": 10
@@ -1432,7 +1432,7 @@
         "Star Tours – The Adventures Continue": 10,
         "Storybook Land Canal Boats": 5,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 15,
         "Millennium Falcon: Smugglers Run": 15,
         "Matterhorn Bobsleds": 10
@@ -1456,7 +1456,7 @@
         "Star Tours – The Adventures Continue": 5,
         "Storybook Land Canal Boats": 5,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 10,
         "Millennium Falcon: Smugglers Run": 15,
         "Matterhorn Bobsleds": 10
@@ -1481,7 +1481,7 @@
         "Star Tours – The Adventures Continue": 5,
         "Storybook Land Canal Boats": 5,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 10,
         "Millennium Falcon: Smugglers Run": 15
     },
@@ -1505,7 +1505,7 @@
         "Star Tours – The Adventures Continue": 5,
         "Storybook Land Canal Boats": 5,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 10,
         "Millennium Falcon: Smugglers Run": 15
     },
@@ -1529,7 +1529,7 @@
         "Star Tours – The Adventures Continue": 15,
         "Storybook Land Canal Boats": 5,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 10,
         "Millennium Falcon: Smugglers Run": 15,
         "Indiana Jones™ Adventure": 5
@@ -1554,7 +1554,7 @@
         "Star Tours – The Adventures Continue": 5,
         "Storybook Land Canal Boats": 5,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 10,
         "Millennium Falcon: Smugglers Run": 15,
         "Indiana Jones™ Adventure": 5
@@ -1580,7 +1580,7 @@
         "Star Tours – The Adventures Continue": 5,
         "Storybook Land Canal Boats": 5,
         "The Many Adventures of Winnie the Pooh": 5,
-        "\"it's a small world\"": 5,
+        "it's a small world": 5,
         "Alice in Wonderland": 10,
         "Millennium Falcon: Smugglers Run": 15
     }

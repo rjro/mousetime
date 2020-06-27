@@ -1,3 +1,5 @@
+#TODO: assign a unique ID to each ride so we can use bitmasks for visited!!!
+
 from copy import copy
 from enum import Enum
 import json
@@ -7,7 +9,9 @@ def shift(seq, n):
     return seq[n:]+seq[:n]
 
 data = json.load(open("times.json"))
-ride_names = sorted(data[str(495)].keys())
+
+start_time = 615
+ride_names = sorted(data[str(start_time)].keys())
 n = len(ride_names)
 
 #ride_names = shift(ride_names, 3)
@@ -41,6 +45,7 @@ class ItineraryNode:
 shortest_itinerary_seen = None
 earliest_time = float('inf')
 
+
 def printItinerary(itin):
 
     lagger = itin
@@ -58,16 +63,25 @@ executions = 0
 
 #TODO: exploration needs to be more BFS
 #and figure out some way to prune!
+
+
+#ride signature so we can specify a max endtime
+#then we can make queries, e.g. 800 to 860 and provide a list of visited rides
+#this will let us optimize easily throughout the day :)
 def rideRides(itinerary, visited, time, depth):
     global earliest_time, executions
 
+    '''
     if executions % (10**6) == 0:
-        print ("Executions:", executions)
-        print("depth:", depth)
         print("~~~~~~~~~~~")
         printItinerary(itinerary)
+        print ("Executions:", executions)
+        print("depth:", depth)
+        print("min time:", earliest_time)
+        print("~~~~~~~~~~~\n\n\n\n")
 
     executions += 1
+    '''
 
     '''
     if depth == 5:
@@ -79,7 +93,8 @@ def rideRides(itinerary, visited, time, depth):
             print("\n\n\n---------")
         return
     '''
-    if depth == n:
+
+    if depth == 4:
         if itinerary.endTime < earliest_time:
             earliest_time = itinerary.endTime
             shortest_itinerary_seen = itinerary
@@ -90,10 +105,10 @@ def rideRides(itinerary, visited, time, depth):
 
     queue = []
 
+
     for i in range(n):
         if visited[i] == False:
             nearest_15_min_interval = 15 * (time//15)
-
             current_wait_times =data[str(nearest_15_min_interval)]
             ride_name = ride_names[i]
 
@@ -113,6 +128,7 @@ def rideRides(itinerary, visited, time, depth):
             c_visited = list(visited)
             c_visited[i] = True
 
+            '''
             queue.append(
                 (
                     ride_node,
@@ -120,19 +136,18 @@ def rideRides(itinerary, visited, time, depth):
                     time + ride_duration,
                     depth + 1
                 )
-            )
-
-            '''
+            )'''
+            
             rideRides(
                ride_node,
                c_visited,
                time + ride_duration,
                depth + 1
-            )'''
+            )
 
 
     #while queue: rideRides(*(queue.pop()))
-    while queue: rideRides(*(queue.pop(random.randrange(len(queue)))))
+    #while queue: rideRides(*(queue.pop(random.randrange(len(queue)))))
 
 
 
@@ -140,4 +155,4 @@ rideRides(ItineraryNode(
     0,
     0,
     Event.WAITING
-), visited=getVisitedArray(), time=495, depth=0)
+), visited=getVisitedArray(), time=630, depth=0)
