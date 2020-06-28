@@ -68,12 +68,12 @@ def rideRides(itinerary, visited, time, maxEndTime, depth):
     global best_itinerary, best_visited, xc
 
     xc +=1 
-    if xc > 10: print(int(gtime.time())); exit()
+   # if xc > 10: print(int(gtime.time())); exit()
     if xc % 10**3 == 0 : print(xc)
     if time >= maxEndTime: return
 
-    itinerary.print()
-    print("~~~~~~~~~~~~\n\n\n\n")
+   # itinerary.print()
+   # print("~~~~~~~~~~~~\n\n\n\n")
     
     if itinerary.pos > most_rides_ridden:
         best_itinerary = itinerary
@@ -81,13 +81,13 @@ def rideRides(itinerary, visited, time, maxEndTime, depth):
     queue = []
 
     cur_ride = ride_names[itinerary.rideId]
-    print(cur_ride)
+    #print(cur_ride)
     
 
     for i in range(n):
         if visited[i] == False:
-            nearest_15_min_interval = 15 * (time//15)
-            current_wait_times =data[str(nearest_15_min_interval)]
+            nearest_15_min_interval = int(15 * (time//15))
+            current_wait_times = data[str(nearest_15_min_interval)]
             ride_name = ride_names[i]
 
             #how far the last ride is from this one
@@ -101,21 +101,25 @@ def rideRides(itinerary, visited, time, maxEndTime, depth):
 
             ride_duration = current_wait_times[ride_name]
 
+            current_path_end = time + ride_travel_time + ride_duration
+
             walk_node = ItineraryNode(
                 time + ride_travel_time,
                 ride_travel_time,
                 Event.WALKING
             )
+            walk_node.prev = copy(itinerary)
+            walk_node.pos = itinerary.pos + 1
 
             ride_node = ItineraryNode(
-                time + ride_duration,
+                current_path_end,
                 ride_duration,
                 Event.ATTRACTION,
                 i
             )
+            ride_node.prev = walk_node
             ride_node.pos = itinerary.pos + 1
 
-            ride_node.prev = copy(itinerary)
 
             c_visited = list(visited)
             c_visited[i] = True
@@ -133,7 +137,7 @@ def rideRides(itinerary, visited, time, maxEndTime, depth):
             rideRides(
                ride_node,
                c_visited,
-               time + ride_duration,
+               current_path_end,
                maxEndTime,
                depth + 1
             )
@@ -141,8 +145,6 @@ def rideRides(itinerary, visited, time, maxEndTime, depth):
 
     #while queue: rideRides(*(queue.pop()))
     #while queue: rideRides(*(queue.pop(random.randrange(len(queue)))))
-
-
 
 base = 60
 rideRides(
@@ -153,6 +155,5 @@ for i in range(8):
     print("Now starting iteratioin...", i)
     rideRides(best_itinerary, best_visited, time=900+base, maxEndTime=900+base+60, depth=0)
     base += 60
-
 
 best_itinerary.print()
